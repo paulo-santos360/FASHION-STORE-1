@@ -104,15 +104,8 @@ input:hover {
   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
 }
 
-.icon {
-  position: absolute;
-  left: 1rem;
-  fill: #9e9ea7;
-  width: 1rem;
-  height: 1rem;
-} 
-
  .swiper {
+    margin-top: 167px;
     width: 100%;
     height: 100%;
   } 
@@ -129,16 +122,100 @@ input:hover {
   .swiper-slide img {
     display: block;
     width: 80%;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
+    margin: 0 auto;
   }
 
+  .swiper-slide .main{
+    position: relative;
+    top: 10px;
+  }
 
-
- 
+ .main-txt{
+    position: relative;
+    top: -181px;
+ }
   
+ .FlexContainer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(195px, auto));
+    gap: 2rem; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 90%;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 10px;
+  }
   
-
+  .row {
+    position: relative;
+    height: auto;
+    transition: all 0.4s;
+  }
+  
+  .row img {
+    width: 100%;
+    height: 200px;
+    height: auto;
+    transition: all 0.4s;
+  }
+  
+  .row img:hover {
+    transform: scale(0.9);
+  }
+  
+  .area-produto h5 {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    background-color: #5C164E;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 2px;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+  }
+  
+  .heart-icon:hover {
+    color: #f02d3a;
+  }
+  
+  .ratting i {
+    color: #ff8c00;
+    font-size: 18px;
+  }
+  
+  .price h4 {
+    color: #111;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400px;
+  }
+  
+  .price p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .ofert {
+    color: var(--verme);
+    font-weight: bolder;
+  }
 
 
 
@@ -229,5 +306,9 @@ input:hover {
        text-decoration: none;
        font-size: 20px;
        font-weight: bolder;
+    }
+    .FlexContainer{
+        display: block;
+        flex-direction: column;
     }
 }
