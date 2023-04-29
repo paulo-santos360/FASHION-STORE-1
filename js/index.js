@@ -1,15 +1,9 @@
-//Menu-Hamburguer
-let menu = document.querySelector('#menu-bar');
-let navbar = document.querySelector('.navbar');
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } 
 
-
-window.onscroll = () =>{
-    //Vai Remover o Menu Hamburguer
-    menu.classList.remove('fa-times');
-    navbar.classList.remove('active'); 
-}
-
-menu.addEventListener('click', () =>{
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
-})
