@@ -3,6 +3,8 @@
   margin: 0;
   /*   box-sizing: border-box; */
   font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /*Paletas de Cores
@@ -215,7 +217,7 @@ header a.icon {
   transform: scale(0.9);
 }
 
-.area-produto h5 {
+.produto h5 {
   position: absolute;
   top: 13px;
   left: 13px;
@@ -226,9 +228,12 @@ header a.icon {
   text-transform: uppercase;
   padding: 10px 10px;
   border-radius: 2px;
-}
+} 
 
-.heart-icon {
+.produto h5:hover{
+  color
+}
+/* .heart-icon {
   position: absolute;
   right: 0;
   font-size: 20px;
@@ -242,7 +247,7 @@ header a.icon {
   color: #ff8c00;
   font-size: 18px;
 }
-
+ */
 .price h4 {
   color: #111;
   font-size: 16px;
@@ -275,6 +280,42 @@ footer {
   padding-top: 20px;
 }
 
+.destaque-footer h5{
+  color: #e2fcef;
+  font-size: 20px;
+}
+
+.destaque-footer h5:hover{
+  color: #f02d3a;
+  border-bottom: 1px solid #f02d3a;
+}
+
+.destaque-footer ul li{
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.destaque-footer ul li a{
+  color: #e2fcef;
+}
+
+.destaque-footer ul li a:hover{
+  color: #f02d3a;
+  border-bottom: 1px solid #f02d3a;
+}
+
+.TodosDireitos p{
+  color: #e2fcef;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.TodosDireitos p:hover{
+  color: #f02d3a;
+}
 
 @media (min-width: 390px) and (max-width: 844px) {
   header a.icon {
@@ -304,6 +345,9 @@ footer {
   }
   .FlexContainer {
     margin-top: 96px;
+  }
+  .FlexContainer1 {
+    margin-right: -3px;
   }
 }
 
