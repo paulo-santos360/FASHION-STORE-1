@@ -148,6 +148,16 @@ header a.icon {
  }
 
  /* CAROUSEL FIM*/
+
+ /* TEXTO DE CENTRO */
+ .Text-Center{
+  width: 100%;
+  height: 300px;
+ }
+
+ .Text-Center h1{
+  text-align: center;
+ }
   
 
  /*Produtos da Loja*/
