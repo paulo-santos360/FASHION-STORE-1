@@ -3,9 +3,30 @@ let filterarray = [];
 let galleryarray = [
 
 {
-    id: 6,
-    name: "roteadores",
+    id: 1,
+    name: "PROMOÇÃO DA SEMANA",
     src: "img/promocao.jpg",
+    desc: "Em <span>Oferta</span> Aproveite",
+  },
+
+  {
+    id: 2,
+    name: "PROMOÇÃO DA SEMANA",
+    src: "img/promocao-2.jpg",
+    desc: "Em <span>Oferta</span> Aproveite",
+  },
+
+  {
+    id: 3,
+    name: "PROMOÇÃO DA SEMANA",
+    src: "img/promocao-3.jpg",
+    desc: "Em <span>Oferta</span> Aproveite",
+  },
+
+  {
+    id: 4,
+    name: "PROMOÇÃO DA SEMANA",
+    src: "img/promocao-4.jpg",
     desc: "Em <span>Oferta</span> Aproveite",
   },
 ];
@@ -16,21 +37,23 @@ showgallery(galleryarray);
 
 function showgallery(currarray) {
 
-    document.getElementById("produto").innerHTML = "";
+    document.getElementById("are-produto").innerHTML = "";
   for (var i = 0; i < currarray.length; i++) {
-    document.getElementById("produto").innerHTML += `
+    document.getElementById("are-produto").innerHTML += `
+    
     <div class="produto">
-    <div class="row produto">
+        <div class="row">
         <img src="${currarray[i].src}" alt="" />
         <div class="area-produto">
+            <h5>${currarray[i].name}</h5>
+        </div>   
+        <div class="price">
             <h5>PROMOÇÃO DA SEMANA</h5>
-            </div>
-                <div class="price">
-                <h5>PROMOÇÃO DA SEMANA</h5>
-                <p>${currarray[i].desc}</p>
-            </div>
+            <p>${currarray[i].desc}</p>
         </div>
-    </div>`;
+        </div>
+    </div>
+    `;
   }
 }
 
@@ -57,3 +80,5 @@ document.getElementById("myinput").addEventListener("keyup", function () {
     }
   }
 });
+
+{/* */}
