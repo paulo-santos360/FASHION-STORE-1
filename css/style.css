@@ -1,8 +1,8 @@
 *{
     padding: 0;
     margin: 0;
- 
-    font-family: ;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Paletas de Cores
@@ -20,6 +20,35 @@ header{
   overflow: hidden;
   background-color: #5C164E;
  /*  position: relative; */
+}
+
+.logo-1{
+  display: flex;
+}
+
+.logo{
+  display: none;
+} 
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover{
+  color: red;
 }
 
 header #myLinks {
@@ -49,13 +78,11 @@ header a.icon {
   color: white;
 }
 
-
-
 /* CAROUSEL */
  .swiper {
   position: relative;
   z-index: 1;
-    margin-top: 57px;
+    margin-top: 10px;
     width: 100%;
     height: 100%;
   } 
@@ -84,9 +111,46 @@ header a.icon {
 
  .main-txt{
     position: relative;
-    top: -181px;
+    top: -224px;
  }
+
+ .main-txt h5{
+    color: #E2FCEF;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+ }
+
+ .main-txt h1{
+    color: #E2FCEF;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+ }
+
+ .main-txt p{
+  color:#E2FCEF;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+ }
+
+ .main-txt button{
+  background-color: #5C164E;
+  color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ }
+
+ /* CAROUSEL FIM*/
   
+
+ /*Produtos da Loja*/
  .FlexContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(195px, auto));
@@ -168,7 +232,12 @@ header a.icon {
       top: 70px; 
       margin-right: 10px;
     }
-    
+    .navbar{
+      display: none;
+    }
+    .logo{
+      display: block;
+    }
   }
 
   @media(min-width: 845px){
