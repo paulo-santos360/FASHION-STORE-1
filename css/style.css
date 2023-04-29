@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+  /*   box-sizing: border-box; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -80,11 +80,11 @@ header a.icon {
 
 /* CAROUSEL */
  .swiper {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+    z-index: 1;
     margin-top: 10px;
     width: 100%;
-    height: 100%;
+    height: 60%;
   } 
 
   .swiper-slide {
@@ -102,6 +102,7 @@ header a.icon {
     height: 500px;
     object-fit: cover;
     margin: 0 auto;
+    z-index: 1;
   }
 
   .swiper-slide .main{
@@ -152,14 +153,19 @@ header a.icon {
  /* TEXTO DE CENTRO */
  .Text-Center{
   width: 100%;
-  height: 300px;
+  position: relative;
+  top: -20px;
+  z-index: 2;
+  margin-top: -76px;
+  margin-bottom: 20px;
  }
 
  .Text-Center h1{
   text-align: center;
+  z-index: 2;
+
  }
   
-
  /*Produtos da Loja*/
  .FlexContainer {
     display: grid;
@@ -247,6 +253,9 @@ header a.icon {
     }
     .logo{
       display: block;
+    }
+    .main{
+      display: none;
     }
   }
 
