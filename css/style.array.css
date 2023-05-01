@@ -1,0 +1,30 @@
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: blue;
+}
+
+#search-container{
+    margin: 1em 0;
+}
+
+#search-container input{
+    background-color: transparent;
+    width: 54%;
+    height: 19px;
+    border: 2px solid #e2fcef;
+    padding: 1em 0.3em;
+}
+
+#search-container input:focus{
+    border: #e2fcef;
+}
+
+#search-container button{
+    padding: 1em 1em;
+    background-color: #e2fcef;
+    color: #5c164e;
+    border-radius: 5px;
+
+}
