@@ -18,7 +18,8 @@
 }
 
 #search-container input:focus{
-    border: #e2fcef;
+    outline: none;
+    color: #e2fcef;
 }
 
 #search-container button{
@@ -36,3 +37,9 @@
     color: #e2fcef;
     cursor: pointer;
 }
+
+.active{
+    background-color: #5c164e;
+    color: #e2fcef;
+}
+
