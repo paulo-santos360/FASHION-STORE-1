@@ -154,5 +154,12 @@ for (let i of products.data){
   //Criar cartão
   let card = document.createElement("div");
   //Cartão deve ser categoria  e deve ficar oculto inicialmente
-  card.classList.add
+  card.classList.add("card", i.category, "hide");
+  //image div
+  let imgContainer = document.createElement("div");
+  imgContainer.classList.add("image-container");
+  //img tag
+  let image = document.createElemente("img");
+  image.setAttribute("src", i.image);
+  imgContainer.appendChild(image);
 }
