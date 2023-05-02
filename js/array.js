@@ -163,18 +163,19 @@ for (let i of products.data){
   image.setAttribute("src", i.image);
   imgContainer.appendChild(image);
   card.appendChild(imgContainer);
-  //conatiner
+  //container
   let container = document.createElement("div");
   container.classList.add("container");
   //Nome do produto
   let name = document.createElement("h5");
   name.classList.add("product-name")
-  name.innerText = "R$" + i.price;
+  name.innerText = i.productName.toUpperCase();
   container.appendChild(name);
   //preço
   let price = document.createElement("h6");
+  price.innerText = "R$" + i.price;
   container.appendChild(price);
 
   card.appendChild(container);
-  document.getElementById("product").appendChild(card);
+  document.getElementById("products").appendChild(card);
 }
