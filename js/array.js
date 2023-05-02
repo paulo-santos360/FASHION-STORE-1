@@ -189,5 +189,27 @@ function filterProduct(value){
     } else{
       button.classList.remove("active");
     }
-  })
+  });
+
+  //seleciona todas as cartas
+  let elements = document.querySelectorAll(".card");
+
+  //percorre todos os cartôes
+  elements.forEach((element) => {
+    //exibe todas as cartas ao clicar no botão 'all'
+    if (value == "all"){
+      element.classList.remove("hide");
+    }else{
+      //Verifica se o elemento com base na categoria
+      if(element.classList.contains(value)){
+      //exibe o elemento com base na categoria
+      element.classList.remove("hide");
+      }else{
+        //esconde outros elementos
+        element.classList.add("hide");
+      }
+    }
+  });
 }
+
+// clique
