@@ -177,3 +177,17 @@ for (let i of products.data){
   card.appendChild(container);
   document.getElementById("products").appendChild(card);
 }
+
+// parâmetro passado do botão (parâmetro igual á categoria)
+function filterProduct(value){
+  //Código da Classe do botão
+  let button = document.querySelectorAll(".button-value");
+  button.forEach((button) =>{
+    //verificar se o valor é igual a innerText
+    if(value.toUpperCase() == button.innerText.toUpperCase()){
+      button.classList.add("active");
+    } else{
+      button.classList.remove("active");
+    }
+  })
+}
