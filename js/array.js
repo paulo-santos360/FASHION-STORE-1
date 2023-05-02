@@ -162,4 +162,19 @@ for (let i of products.data){
   let image = document.createElemente("img");
   image.setAttribute("src", i.image);
   imgContainer.appendChild(image);
+  card.appendChild(imgContainer);
+  //conatiner
+  let container = document.createElement("div");
+  container.classList.add("container");
+  //Nome do produto
+  let name = document.createElement("h5");
+  name.classList.add("product-name")
+  name.innerText = "R$" + i.price;
+  container.appendChild(name);
+  //preço
+  let price = document.createElement("h6");
+  container.appendChild(price);
+
+  card.appendChild(container);
+  document.getElementById("product").appendChild(card);
 }
