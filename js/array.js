@@ -144,29 +144,29 @@ let products = {
       category: "Bottomwear",
       price: "49",
       image: "img/tenis-4.jpg",
-    },
+    },   
   ],
 };
 
-for (let i of products.data){
+for (let i of products.data) {
   //Criar cartão
   let card = document.createElement("div");
-  //Cartão deve ser categoria  e deve ficar oculto inicialmente
+  //Cartão deve ter categoria e deve ficar oculto inicialmente
   card.classList.add("card", i.category, "hide");
   //image div
   let imgContainer = document.createElement("div");
   imgContainer.classList.add("image-container");
   //img tag
-  let image = document.createElemente("img");
+  let image = document.createElement("img");
   image.setAttribute("src", i.image);
   imgContainer.appendChild(image);
-  card.appendChild(imgContainer);
+  card.appendChild(imgContainer); 
   //container
   let container = document.createElement("div");
-  container.classList.add("container");
-  //Nome do produto
+  container.classList.add("container"); 
+ //Nome do Produto
   let name = document.createElement("h5");
-  name.classList.add("product-name")
+  name.classList.add("product-name");
   name.innerText = i.productName.toUpperCase();
   container.appendChild(name);
   //preço
@@ -178,38 +178,61 @@ for (let i of products.data){
   document.getElementById("products").appendChild(card);
 }
 
-// parâmetro passado do botão (parâmetro igual á categoria)
-function filterProduct(value){
-  //Código da Classe do botão
-  let button = document.querySelectorAll(".button-value");
-  button.forEach((button) =>{
-    //verificar se o valor é igual a innerText
-    if(value.toUpperCase() == button.innerText.toUpperCase()){
+//parâmetro passado do botão (parâmetro igual à categoria)
+  function filterProduct(value) {
+  //Código da classe do botão
+  let buttons = document.querySelectorAll(".button-value");
+  buttons.forEach((button) => {     
+    //verifica se valor é igual a innerText
+    if (value.toUpperCase() == button.innerText.toUpperCase()) {
       button.classList.add("active");
-    } else{
+    } else {
       button.classList.remove("active");
     }
-  });
+  });  
 
   //seleciona todas as cartas
   let elements = document.querySelectorAll(".card");
 
-  //percorre todos os cartôes
+  //percorre todos os cartões
   elements.forEach((element) => {
     //exibe todas as cartas ao clicar no botão 'all'
-    if (value == "all"){
+    if (value == "all") {
       element.classList.remove("hide");
-    }else{
-      //Verifica se o elemento com base na categoria
-      if(element.classList.contains(value)){
-      //exibe o elemento com base na categoria
-      element.classList.remove("hide");
-      }else{
+    } else {
+     //Verifica se o elemento contém classe de categoria
+      if (element.classList.contains(value)) {
+        //exibe o elemento com base na categoria
+        element.classList.remove("hide");
+      } else {
         //esconde outros elementos
         element.classList.add("hide");
       }
     }
-  });
+  }); 
 }
 
-// clique
+ //clique no botão de pesquisa
+document.getElementById("search").addEventListener("click", () => {
+ // inicializações
+  let searchInput = document.getElementById("search-input").value;
+  let elements = document.querySelectorAll(".product-name");
+  let cards = document.querySelectorAll(".card");
+
+  //percorre todos os elementos
+  elements.forEach((element, index) => {
+    //verifica se o texto inclui o valor de pesquisa
+    if (element.innerText.includes(searchInput.toUpperCase())) {
+      //exibe o cartão correspondente
+      cards[index].classList.remove("hide");
+    } else {
+      //ocultar outros
+      cards[index].classList.add("hide");
+    }
+  });
+});
+
+//Exibe inicialmente todos os produtos
+window.onload = () => {
+  filterProduct("all");
+}; 

@@ -1,130 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lojas-Fashion</title>
-    <!--CSS Link-->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!--CSS ARRAY-->
-    <link rel="stylesheet" href="css/style.array.css">
-
-    <!--FONT AWESOME-->
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--JS Linl-->
-    <script src="js/index.js" defer></script>
-
-    <!--Google Fontes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.array.css" />
   </head>
   <body>
+
     <header>
-      <nav class="navbar">
-        <a href="#home" class="active">
-          <img src="img/logo-top1.jpg" class="logo-1" alt=""
-        /></a>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="produtos.html">PRODUTOS</a></li>
-          <li><a href="entre">ENTRE EM CONTATO</a></li>
-          <div id="search-container">
-            <input type="seach" id="search" placeholder="Pesquisar Aqui">
-            <button id="search">Pesquisar</button>
-          </div>
-        </ul>
-        
-      </nav>
-
-      <!--Responsivo-->
-      <a href="#home" class="active logo-1">
-        <img src="img/logo-top1.jpg" class="logo" alt=""
-      /></a>
-      <div id="myLinks">
-        <a href="index.html">HOME</a>
-        <a href="produtos.html">PRODUTOS</a>
-        <a href="#about">ENTRE EM CONTATO</a>
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </header>
-
     <div class="wrapper">
-
+     
+     <!--  <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Topwear')">
+          Topwear
+        </button>
+        <button class="button-value" onclick="filterProduct('Bottomwear')">
+          Bottomwear
+        </button>
+        <button class="button-value" onclick="filterProduct('Jacket')">
+          Jacket
+        </button>
+        <button class="button-value" onclick="filterProduct('Watch')">
+          Watch
+        </button>
+      </div> -->
+      
       <div id="products">
 
       </div>
-
     </div>
-
-
-
-    <footer>
-      <div class="FlexContainer1">
-        <div class="destaque-footer">
-          <img src="img/logo-top1.jpg" alt="" />
-          <h5>Lojas Fashion as Melhores Ofertas</h5>
-        </div>
-        <div class="destaque-footer">
-          <h5>Sobre a Lojas Fachion</h5>
-          <ul>
-            <li><a href="#">Nossas Lojas</a></li>
-            <li><a href="#">Investidores</a></li>
-            <li><a href="#">Seja Um Parceiro Marketplace</a></li>
-            <li><a href="#">Trabalhe Conosco</a></li>
-          </ul>
-        </div>
-        <div class="destaque-footer">
-          <h5>Central de Atendimento</h5>
-          <ul>
-            <li><a href="#">Atendimento 24 Horas</a></li>
-            <li><a href="#">Entre em Contato</a></li>
-            <li><a href="#">Satisfação 100% Garantida</a></li>
-            <li><a href="#">Seja um Revendedor</a></li>
-          </ul>
-        </div>
-
-        <div class="destaque-footer">
-          <h5>Perguntas Freguentes</h5>
-          <ul>
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">Central de Privacidade</a></li>
-            <li><a href="#">Termo e Uso</a></li>
-            <li><a href="#">Troca e Devolução</a></li>
-            <li><a href="#">Acompalhe seu Pedido</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="TodosDireitos">
-        <hr />
-        <p>Feito Por Paulo Santos</p>
-      </div>
-    </footer>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-    <script src="js/Swiper.js"></script>
-
+    <!-- Script -->
     <script src="js/array.js"></script>
   </body>
 </html>
