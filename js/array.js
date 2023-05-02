@@ -145,8 +145,6 @@ let products = {
       price: "49",
       image: "img/tenis-4.jpg",
     },
-   
-    
   ],
 };
 
