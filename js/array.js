@@ -1,91 +1,91 @@
 let products = {
   data: [
     {
-      productName: "Camisa Feminina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Feminina",
       price: "49,00",
       image: "img/camisa-1.jpg",
     },
     {
-      productName: "Camisa Feminina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Feminina",
       price: "49,00",
       image: "img/camisa-2.jpg",
     },
     {
-      productName: "Camisa Feminina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Feminina",
       price: "49,00",
       image: "img/camisa-3.jpg",
     },
     {
-      productName: "Camisa Feminina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Feminina",
       price: "49,00",
       image: "img/camisa-4.jpg",
     },
     {
-      productName: "Vestidos Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Vestidos Feminina",
       price: "30,00",
       image: "img/vestidos.jpg",
     },
     {
-      productName: "Vestidos Feminina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Vestidos Feminina",
       price: "49,00",
       image: "img/vestidos-2.jpg",
     },
     {
-      productName: "Vestidos Feminina",//Fashion Store
-      category: "Watch",
+      productName: "Fashion Store",
+      paragrafo: "Vestidos Feminina",
       price: "99,00",
       image: "img/vestidos-33.jpg",
     },
     {
-      productName: "Vestidos Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Vestidos Feminina",
       price: "29,00",
       image: "img/vestidos-4.jpg",
     },
     {
-      productName: "Moda Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Moda Feminina Sandálias",
       price: "29,00",
       image: "img/sapato.jpg",
     },
     {
-      productName: "Moda Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Moda Feminina Sandálias",
       price: "29,00",
       image: "img/sapato-2.jpg",
     },
     {
-      productName: "Moda Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Moda Feminina Sandálias",
       price: "29,00",
       image: "img/sapato-3.jpg",
     },
     {
-      productName: "Moda Feminina",//Fashion Store
-      category: "Topwear",
+      productName: "Fashion Store",
+      paragrafo: "Moda Feminina Sandálias",
       price: "29,00",
       image: "img/sapato-4.jpg",
     },
     {
-      productName: "Camisa Masculina",//Fashion Store
-      category: "Jacket",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Masculina",
       price: "129,00",
       image: "img/camisaM.jpg",
     },
     {
-      productName: "Camisa Masculina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Masculina",
       price: "89,00",
       image: "img/camisaM-2.jpg",
     },
     {
-      productName: "Camisa Masculina",//Fashion Store
+      productName: "Fashion Store",
       paragrafo: "Camisa Masculina",
       price: "189,00",
       image: "img/camisaM-3.jpg",

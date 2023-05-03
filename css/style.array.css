@@ -54,13 +54,13 @@
   img{
     max-width: 100%;
     object-fit: contain;
-    height: 15em;
+    height: 14em;
     transition: all 0.4s;
   }
 
- /*  img:hover {
+  img:hover {
     transform: scale(0.9);
-  } */
+  } 
   .container {
     padding-top: 1em;
     color: #5c164e;
@@ -68,15 +68,17 @@
   .container h5 {
     font-size: 21px;
     font-weight: bold;
-   
+    margin-top: -36px;
   }
-  
+
   .container h6 {
+    color: #000000;
     font-size: 21px;
     font-weight: bold;
   }
 
   .container p {
+    color: #000000;
     font-size: 21px;
     font-weight: bold;
   }
