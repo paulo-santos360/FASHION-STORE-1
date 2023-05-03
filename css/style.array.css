@@ -66,8 +66,21 @@
     color: #5c164e;
   }
   .container h5 {
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: bold;
+   
   }
+  
+  .container h6 {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .container p {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
   .hide {
     display: none;
   }

@@ -1,148 +1,148 @@
 let products = {
   data: [
     {
-      productName: "Camisa Feminina Fashion Store",
+      productName: "Camisa Feminina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/camisa-1.jpg",
     },
     {
-      productName: "Camisa Feminina Fashion Store",
+      productName: "Camisa Feminina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/camisa-2.jpg",
     },
     {
-      productName: "Camisa Feminina Fashion Store",
+      productName: "Camisa Feminina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/camisa-3.jpg",
     },
     {
-      productName: "Camisa Feminina Fashion Store",
+      productName: "Camisa Feminina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/camisa-4.jpg",
     },
     {
-      productName: "Vestidos Feminina Fashion Store",
+      productName: "Vestidos Feminina",//Fashion Store
       category: "Topwear",
-      price: "30",
+      price: "30,00",
       image: "img/vestidos.jpg",
     },
     {
-      productName: "Vestidos Feminina Fashion Store",
+      productName: "Vestidos Feminina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/vestidos-2.jpg",
     },
     {
-      productName: "Vestidos Feminina Fashion Store",
+      productName: "Vestidos Feminina",//Fashion Store
       category: "Watch",
-      price: "99",
+      price: "99,00",
       image: "img/vestidos-33.jpg",
     },
     {
-      productName: "Vestidos Feminina Fashion Store",
+      productName: "Vestidos Feminina",//Fashion Store
       category: "Topwear",
-      price: "29",
+      price: "29,00",
       image: "img/vestidos-4.jpg",
     },
     {
-      productName: "Moda Feminina Fashion Store",
+      productName: "Moda Feminina",//Fashion Store
       category: "Topwear",
-      price: "29",
+      price: "29,00",
       image: "img/sapato.jpg",
     },
     {
-      productName: "Moda Feminina Fashion Store",
+      productName: "Moda Feminina",//Fashion Store
       category: "Topwear",
-      price: "29",
+      price: "29,00",
       image: "img/sapato-2.jpg",
     },
     {
-      productName: "Moda Feminina Fashion Store",
+      productName: "Moda Feminina",//Fashion Store
       category: "Topwear",
-      price: "29",
+      price: "29,00",
       image: "img/sapato-3.jpg",
     },
     {
-      productName: "Moda Feminina Fashion Store",
+      productName: "Moda Feminina",//Fashion Store
       category: "Topwear",
-      price: "29",
+      price: "29,00",
       image: "img/sapato-4.jpg",
     },
     {
-      productName: "Camisa Masculina Fashion Store",
+      productName: "Camisa Masculina",//Fashion Store
       category: "Jacket",
-      price: "129",
+      price: "129,00",
       image: "img/camisaM.jpg",
     },
     {
-      productName: "Camisa Masculina Fashion Store",
+      productName: "Camisa Masculina",//Fashion Store
       category: "Bottomwear",
-      price: "89",
+      price: "89,00",
       image: "img/camisaM-2.jpg",
     },
     {
-      productName: "Camisa Masculina Fashion Store",
+      productName: "Camisa Masculina",//Fashion Store
       category: "Jacket",
-      price: "189",
+      price: "189,00",
       image: "img/camisaM-3.jpg",
     },
     {
-      productName: "Camisa Masculina Fashion Store",
+      productName: "Camisa Masculina",//Fashion Store
       category: "Bottomwear",
-      price: "49",
+      price: "49,00",
       image: "img/camisaM-4.jpg",
     },
 
     {
-      productName: "Moda Masculina Fashion Store",
-      category: "Jacket",
-      price: "129",
+      productName: "Fashion Store",//
+      paragrafo: "Calça Jeans Masculina",
+      price: "129,00",
       image: "img/calca.jpg",
     },
     {
-      productName: "Moda Masculina Fashion Store",
-      category: "Bottomwear",
-      price: "89",
+      productName: "Fashion Store",
+      paragrafo: "Calça Jeans Masculina",
+      price: "89,00",
       image: "img/calca-2.jpg",
     },
     {
-      productName: "Moda Masculina Fashion Store",
-      category: "Jacket",
-      price: "189",
+      productName: "Fashion Store",
+      paragrafo: "Calça Jeans Masculina",
+      price: "189,00",
       image: "img/calca-3.jpg",
     },
     {
-      productName: "Moda Masculina Fashion Store",
-      category: "Bottomwear",
-      price: "49",
+      productName: "Fashion Store",
+      paragrafo: "Calça Jeans Masculina",
+      price: "49,00",
       image: "img/calca-4.jpg",
     },
     {
-      productName: "Tenis Fashion Store",
-      category: "Jacket",
-      price: "129",
-      image: "img/tenis.jpg",
+      productName: "Fashion Store",
+      paragrafo: "Tenis",
+      price: "129,00",
+      image: "img/tenis2.jpg",
     },
     {
-      productName: "Tenis Fashion Store",
-      category: "Bottomwear",
-      price: "89",
+      productName: "Fashion Store",
+      paragrafo: "Tenis",
+      price: "89,00",
       image: "img/tenis-2.jpg",
     },
     {
-      productName: "Tenis Fashion Store",
-      category: "Jacket",
-      price: "189",
+      productName: "Fashion Store",
+      paragrafo: "Tenis",
+      price: "189,00",
       image: "img/tenis-3.jpg",
     },
     {
-      productName: "Tenis Fashion Store",
-      category: "Bottomwear",
-      price: "49",
+      productName: "Fashion Store",
+      paragrafo: "Tenis",
+      price: "49,00",
       image: "img/tenis-4.jpg",
     },   
   ],
@@ -167,8 +167,14 @@ for (let i of products.data) {
  //Nome do Produto
   let name = document.createElement("h5");
   name.classList.add("product-name");
-  name.innerText = i.productName.toUpperCase();
+  name.innerText =  i.productName.toUpperCase();
   container.appendChild(name);
+
+  //Nome do Produto
+
+  let paragrafo = document.createElement("p")
+  paragrafo.innerText = i.paragrafo;
+  container.appendChild(paragrafo)
   //preço
   let price = document.createElement("h6");
   price.innerText = "R$" + i.price;
