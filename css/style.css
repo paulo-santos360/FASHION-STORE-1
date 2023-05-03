@@ -25,6 +25,7 @@ header {
 
 .logo-1 {
   display: flex;
+  width: 244px;
 }
 
 .logo {
@@ -332,6 +333,9 @@ footer {
   }
   .logo {
     display: block;
+  }
+  .logo-1{
+    width: 244px;
   }
   .main {
     display: none;

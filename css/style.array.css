@@ -58,9 +58,9 @@
     transition: all 0.4s;
   }
 
-  img:hover {
+ /*  img:hover {
     transform: scale(0.9);
-  }
+  } */
   .container {
     padding-top: 1em;
     color: #5c164e;
