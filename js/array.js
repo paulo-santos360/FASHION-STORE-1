@@ -86,19 +86,19 @@ let products = {
     },
     {
       productName: "Camisa Masculina",//Fashion Store
-      category: "Jacket",
+      paragrafo: "Camisa Masculina",
       price: "189,00",
       image: "img/camisaM-3.jpg",
     },
     {
-      productName: "Camisa Masculina",//Fashion Store
-      category: "Bottomwear",
+      productName: "Fashion Store",
+      paragrafo: "Camisa Masculina",
       price: "49,00",
       image: "img/camisaM-4.jpg",
     },
 
     {
-      productName: "Fashion Store",//
+      productName: "Fashion Store",
       paragrafo: "Calça Jeans Masculina",
       price: "129,00",
       image: "img/calca.jpg",
