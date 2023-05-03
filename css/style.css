@@ -24,7 +24,6 @@ header {
 }
 
 .logo-1 {
-  display: flex;
   width: 244px;
 }
 
@@ -35,6 +34,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  height: 157px;
 }
 
 .navbar ul {
@@ -195,7 +195,7 @@ header a.icon {
 /*Produtos da Loja*/
 .FlexContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(195px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(228px, auto));
   gap: 2rem;
   width: 90%;
   margin: 0 auto;
@@ -231,41 +231,19 @@ header a.icon {
   border-radius: 2px;
 } 
 
-.produto h5:hover{
-  color
-}
-/* .heart-icon {
-  position: absolute;
-  right: 0;
-  font-size: 20px;
-}
-
-.heart-icon:hover {
-  color: #f02d3a;
-}
-
-.ratting i {
-  color: #ff8c00;
-  font-size: 18px;
-}
- */
-.price h4 {
-  color: #111;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 400px;
-}
-
-.price p {
+.produto p {
   color: #000;
   font-size: 14px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
-.ofert {
-  color: var(--verme);
+.produto span {
+  color: #5c164e;
   font-weight: bolder;
 }
+
+
 
 footer {
   background-color: #5c164e;
@@ -334,9 +312,7 @@ footer {
   .logo {
     display: block;
   }
-  .logo-1{
-    width: 244px;
-  }
+  
   .main {
     display: none;
   }

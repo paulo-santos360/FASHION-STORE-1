@@ -1,149 +1,150 @@
 let products = {
   data: [
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Feminina",
+      productName: "Camisa Feminina",
+      paragrafo: "",
       price: "49,00",
       image: "img/camisa-1.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Feminina",
+      productName: "Camisa Feminina",
+      paragrafo: "",
       price: "49,00",
       image: "img/camisa-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Feminina",
+      productName: "Camisa Feminina",
+      paragrafo: "",
       price: "49,00",
       image: "img/camisa-3.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Feminina",
+      productName: "Camisa Feminina",
+      paragrafo: "",
       price: "49,00",
       image: "img/camisa-4.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Vestidos Feminina",
+      productName: "Vestidos Feminina",
+      paragrafo: "",
       price: "30,00",
       image: "img/vestidos.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Vestidos Feminina",
+      productName: "Vestidos Feminina",
+      paragrafo: "",
       price: "49,00",
       image: "img/vestidos-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Vestidos Feminina",
+      productName: "Vestidos Feminina",
+      paragrafo: "",
       price: "99,00",
       image: "img/vestidos-33.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Vestidos Feminina",
+      productName: "Vestidos Feminina",
+      paragrafo: "",
       price: "29,00",
       image: "img/vestidos-4.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Moda Feminina Sandálias",
+      productName: "Moda Feminina Sandálias",
+      paragrafo: "",
       price: "29,00",
       image: "img/sapato.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Moda Feminina Sandálias",
+      productName: "Moda Feminina Sandálias",
+      paragrafo: "",
       price: "29,00",
       image: "img/sapato-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Moda Feminina Sandálias",
+      productName: "Moda Feminina Sandálias",
+      paragrafo: "",
       price: "29,00",
       image: "img/sapato-3.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Moda Feminina Sandálias",
+      productName: "Moda Feminina Sandálias",
+      paragrafo: "",
       price: "29,00",
       image: "img/sapato-4.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Masculina",
+      productName: "Camisa Masculina",
+      paragrafo: "",
       price: "129,00",
       image: "img/camisaM.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Masculina",
+      productName: "Camisa Masculina",
+      paragrafo: "",
       price: "89,00",
       image: "img/camisaM-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Masculina",
+      productName: "Camisa Masculina",
+      paragrafo: "",
       price: "189,00",
       image: "img/camisaM-3.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Camisa Masculina",
+      productName: "Camisa Masculina",
+      paragrafo: "",
       price: "49,00",
       image: "img/camisaM-4.jpg",
     },
 
     {
-      productName: "Fashion Store",
-      paragrafo: "Calça Jeans Masculina",
+      productName: "Calça Jeans Masculina",
+      paragrafo: "",
       price: "129,00",
       image: "img/calca.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Calça Jeans Masculina",
+      productName: "Calça Jeans Masculina",
+      paragrafo: "",
       price: "89,00",
       image: "img/calca-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Calça Jeans Masculina",
+      productName: "Calça Jeans Masculina",
+      paragrafo: "",
       price: "189,00",
       image: "img/calca-3.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Calça Jeans Masculina",
+      productName: "Calça Jeans",
+      paragrafo: "",
       price: "49,00",
       image: "img/calca-4.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Tenis",
+      productName: "Tenis",
+      paragrafo: "",
       price: "129,00",
       image: "img/tenis2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Tenis",
+      productName: "Tenis",
+      paragrafo: "",
       price: "89,00",
       image: "img/tenis-2.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Tenis",
+      productName: "Tenis",
+      paragrafo: "",
       price: "189,00",
       image: "img/tenis-3.jpg",
     },
     {
-      productName: "Fashion Store",
-      paragrafo: "Tenis",
+      productName: "Tenis",
+     
       price: "49,00",
       image: "img/tenis-4.jpg",
+      paragrafo: "loja",
     },   
   ],
 };
@@ -153,6 +154,8 @@ for (let i of products.data) {
   let card = document.createElement("div");
   //Cartão deve ter categoria e deve ficar oculto inicialmente
   card.classList.add("card", i.category, "hide");
+
+  
   //image div
   let imgContainer = document.createElement("div");
   imgContainer.classList.add("image-container");
@@ -172,13 +175,15 @@ for (let i of products.data) {
 
   //Nome do Produto
 
-  let paragrafo = document.createElement("p")
-  paragrafo.innerText = i.paragrafo;
-  container.appendChild(paragrafo)
+  
   //preço
   let price = document.createElement("h6");
   price.innerText = "R$" + i.price;
   container.appendChild(price);
+
+  let paragrafo = document.createElement("p")
+  paragrafo.innerText = i.paragrafo;
+  container.appendChild(paragrafo)
 
   card.appendChild(container);
   document.getElementById("products").appendChild(card);
