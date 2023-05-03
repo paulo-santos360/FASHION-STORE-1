@@ -51,16 +51,19 @@
   .image-container {
     text-align: center;
   }
+  
   img{
     max-width: 100%;
     object-fit: contain;
     height: 14em;
-    transition: all 0.4s;
+    animation: none;
+    transition: all 0.4s
   }
 
   img:hover {
     transform: scale(0.9);
-  } 
+  }  
+
   .container {
     padding-top: 1em;
     color: #5c164e;
