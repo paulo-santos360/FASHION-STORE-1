@@ -1,6 +1,7 @@
 .wrapper {
     width: 95%;
     margin: 0 auto;
+    margin-top: -44px;
   }
   #search-container {
     margin: 1em 0;
@@ -66,7 +67,6 @@
 
   .container {
     padding-top: 1em;
-    color: #5c164e;
   }
   .container h5 {
     font-size: 21px;
@@ -81,9 +81,10 @@
   }
 
   .container p {
-    color: #000000;
+    color: #5c164e;
     font-size: 21px;
     font-weight: bold;
+    text-transform: uppercase;
   }
 
   .hide {
