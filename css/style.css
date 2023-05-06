@@ -182,10 +182,10 @@ color: white;
 .Text-Center {
   width: 100%;
   position: relative;
-  top: -20px;
+  top: -164px;
   z-index: 2;
   margin-top: 31px;
-  margin-bottom: 20px;
+  margin-bottom: -88px;
 }
 
 .Text-Center h1 {
@@ -281,7 +281,6 @@ color: white;
 
 .Produto-Center p {
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
   margin-top: 10px;
 }

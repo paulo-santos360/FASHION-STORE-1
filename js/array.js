@@ -153,8 +153,6 @@ for (let i of products.data) {
   let card = document.createElement("div");
   //Cartão deve ter categoria e deve ficar oculto inicialmente
   card.classList.add("card", i.category, "hide");
-
-  
   //image div
   let imgContainer = document.createElement("div");
   imgContainer.classList.add("image-container");
@@ -169,12 +167,8 @@ for (let i of products.data) {
  //Nome do Produto
   let name = document.createElement("h5");
   name.classList.add("product-name");
-  name.innerText =  i.productName.toUpperCase();
+  name.innerText = i.productName.toUpperCase();
   container.appendChild(name);
-
-  //Nome do Produto
-
-  
   //preço
   let price = document.createElement("h6");
   price.innerText = "R$" + i.price;
