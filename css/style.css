@@ -287,7 +287,7 @@ header a.icon {
 }
 
 
-/* Img destaque animação*/
+/* Img animação*/
 .kenburns-bottom-left {
 	-webkit-animation: kenburns-bottom-left 5s reverse both;
 	        animation: kenburns-bottom-left 5s reverse both;
@@ -319,6 +319,72 @@ header a.icon {
             transform: scale(1.25) translate(-20px, 15px);
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
+  }
+}
+.kenburns-top-left {
+	-webkit-animation: kenburns-top-left 9s ease-out both;
+	        animation: kenburns-top-left 9s ease-out both;
+}
+
+ @-webkit-keyframes kenburns-top-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 16%;
+            transform-origin: 16% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, -15px);
+            transform: scale(1.25) translate(-20px, -15px);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+}
+@keyframes kenburns-top-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 16%;
+            transform-origin: 16% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, -15px);
+            transform: scale(1.25) translate(-20px, -15px);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+}
+
+.kenburns-bottom {
+	-webkit-animation: kenburns-bottom 9s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+	        animation: kenburns-bottom 9s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+}
+ @-webkit-keyframes kenburns-bottom {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+            transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(15px);
+            transform: scale(1.25) translateY(15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+}
+@keyframes kenburns-bottom {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+            transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(15px);
+            transform: scale(1.25) translateY(15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
   }
 }
 
