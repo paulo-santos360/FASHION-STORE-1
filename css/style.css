@@ -273,7 +273,7 @@ color: white;
   text-transform: uppercase;
 }
 
-.Produto-Center .fashion {
+.fashion {
   color: #5c164e;
   font-size: 25px;
   text-transform: uppercase;
@@ -290,12 +290,19 @@ color: white;
   overflow: hidden;
 }
 
+/*Nossa Historia Começo */
+.Nossa-Historia{
+  height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 85px;
+}
+
 .Text-destaque img{
   position: relative;
   max-width: 600px;
   min-height: 400px;
   border-radius: 5px;
-  
 }
 
 footer {
