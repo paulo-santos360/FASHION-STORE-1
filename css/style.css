@@ -49,9 +49,12 @@ header {
   padding: 10px;
 }
 
+.navprime ul li a:hover{
+  color: #f02d3a;
+}
+
  ul li a {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 20px
 }
 
 .logo {
@@ -292,7 +295,7 @@ color: white;
 
 /*Nossa Historia Começo */
 .Nossa-Historia{
-  height: 200px;
+  height: 150px;
   text-align: center;
   text-transform: uppercase;
   line-height: 152px;
@@ -312,6 +315,13 @@ color: white;
   max-width: 600px;
   min-height: 400px;
   border-radius: 5px;
+}
+
+.Text-destaque span{
+  color: #5c164e;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Formulario de Contato*/
@@ -411,7 +421,8 @@ footer {
 
 .destaque-footer h5{
   color: #e2fcef;
-  font-size: 20px;
+  font-size: 19px;
+  text-transform: uppercase;
 }
 
 .destaque-footer h5:hover{
@@ -464,8 +475,8 @@ footer {
 
 /* Img animação*/
 .kenburns-bottom-left {
-	-webkit-animation: kenburns-bottom-left 5s reverse both;
-	        animation: kenburns-bottom-left 5s reverse both;
+	-webkit-animation: kenburns-bottom-left 15s reverse both;
+	        animation: kenburns-bottom-left 15s reverse both;
 }
 
  @-webkit-keyframes kenburns-bottom-left {
@@ -494,72 +505,6 @@ footer {
             transform: scale(1.25) translate(-20px, 15px);
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-  }
-}
-.kenburns-top-left {
-	-webkit-animation: kenburns-top-left 9s ease-out both;
-	        animation: kenburns-top-left 9s ease-out both;
-}
-
- @-webkit-keyframes kenburns-top-left {
-  0% {
-    -webkit-transform: scale(1) translate(0, 0);
-            transform: scale(1) translate(0, 0);
-    -webkit-transform-origin: 16% 16%;
-            transform-origin: 16% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translate(-20px, -15px);
-            transform: scale(1.25) translate(-20px, -15px);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
-  }
-}
-@keyframes kenburns-top-left {
-  0% {
-    -webkit-transform: scale(1) translate(0, 0);
-            transform: scale(1) translate(0, 0);
-    -webkit-transform-origin: 16% 16%;
-            transform-origin: 16% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translate(-20px, -15px);
-            transform: scale(1.25) translate(-20px, -15px);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
-  }
-}
-
-.kenburns-bottom {
-	-webkit-animation: kenburns-bottom 9s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-	        animation: kenburns-bottom 9s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-}
- @-webkit-keyframes kenburns-bottom {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 84%;
-            transform-origin: 50% 84%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(15px);
-            transform: scale(1.25) translateY(15px);
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
-  }
-}
-@keyframes kenburns-bottom {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 84%;
-            transform-origin: 50% 84%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(15px);
-            transform: scale(1.25) translateY(15px);
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
   }
 }
 
