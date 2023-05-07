@@ -292,14 +292,15 @@ color: white;
 
 /*Nossa Historia Começo */
 .Nossa-Historia{
-  height: 100px;
+  height: 200px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 85px;
+  line-height: 152px;
 }
 
 .Text-destaque h1{
   text-align: center;
+  text-transform: uppercase;
 }
 .Text-destaque p{
   text-indent: 10px;
@@ -321,26 +322,29 @@ color: white;
   justify-content: space-around;
 }
 
-#form-container {
+.form-container {
   text-align: center;
   margin-top: -22px;
 }
 
-#form-container h2 {
+.form-container h2 {
   color: #5c164e;
-  margin-bottom: 27px;
   font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  
 }
 
-#contact-form {
+.contact-form {
   width: 500px;
  margin: 0 auto;
   text-align: left;
 }
 
-#contact-form input,
-#contact-form label,
-#contact-form textarea {
+.contact-form input,
+.contact-form label,
+.contact-form textarea {
   display: block;
   padding: 10px;
   border: 1px solid #EEE;
@@ -348,32 +352,32 @@ color: white;
   color: #5c164e;
 }
 
-#contact-form label {
+.contact-form label {
   color: #5c164e;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: none;
 }
 
-#contact-form input {
+.contact-form input {
   margin-bottom: -3px;
   border-bottom: 1px solid #5c164e;
   outline: none;
 }
 
-#contact-form textarea {
+.contact-form textarea {
   margin-bottom: 15px;
   border-bottom: 1px solid #5c164e;
   outline: none;
 }
 
-#contact-form input::placeholder,
-#contact-form textarea::placeholder {
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
   color: #5c164e;
   
 }
 
-#contact-form input[type="submit"] {
+.contact-form input[type="submit"] {
   background-color: #5c164e;
   color: #e2fcef;
   font-size: 16px;
@@ -385,7 +389,7 @@ color: white;
   transition: .5s;
 }
 
-#contact-form input[type="submit"]:hover {
+.contact-form input[type="submit"]:hover {
   border-color: #5c164e;
   color: #5c164e;
   background-color: #e2fcef;
