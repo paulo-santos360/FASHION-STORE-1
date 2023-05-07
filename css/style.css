@@ -8,16 +8,6 @@
   
 }
 
-/*Paletas de Cores
-
-background-color: #E2FCEF;
-color: #170F11;
-color: #9B287B;
-color: #5C164E;
-color: #402039;
-
-*/
-
 .topnav{
   display: none;
 }
@@ -95,7 +85,6 @@ background-color: #04AA6D;
 color: white;
 }
 
-
 /* CAROUSEL */
 .swiper {
   position: relative;
@@ -111,7 +100,6 @@ color: white;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .swiper-slide img {
@@ -291,6 +279,50 @@ color: white;
 
 .home-imagem{
   overflow: hidden;
+}
+
+/*Cliente */
+
+.client-serve {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, auto));
+  gap: 2rem;
+}
+
+.serve {
+  text-align: center;
+}
+
+.client {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.serve span{
+  color: #5c164e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.client-serve img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.client-serve p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.client-serve h2 {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2px;
 }
 
 /*Nossa Historia Começo */
@@ -552,7 +584,7 @@ footer {
   animation: vibrate-1 0.3s linear infinite both;
 }
 
-@-webkit-keyframes vibrate-1 {
+@keyframes -webkit-keyframes  {
   0% {
     -webkit-transform: translate(0);
     transform: translate(0);
@@ -596,13 +628,29 @@ footer {
   .logo {
     display: block;
   }
+  #real{
+    display: none;
+  }
+  .swiper-slide img{ 
+    display: none;
+  }
+  
+  .Text-Center{
+    display: none;
+  }
   .main {
     display: none;
   }
-  .Text-Center {
-    top: 82px;
-    margin-bottom: 20px;
+
+  .Nossa-Historia span{
+    font-size: 10px;
   }
+
+  .Nossa-Historia{
+    font-size: 10px;
+    margin-top: -41px;
+  }
+  
   .Text-Center p {
     font-size: 18px;
   }
@@ -612,6 +660,29 @@ footer {
   .FlexContainer1 {
     margin-right: -3px;
   }
+  .Text-destaque{
+    display: block;
+    margin-top: -70px;
+  }
+  .home-destaque{
+    width: 387pc;
+  }
+  .home-destaque p{
+    width: 387px;
+  }
+  .home-imagem{
+    width: 387px;
+  }
+  .Text-Contato{
+    display: block;
+  }
+  .contact-form{
+    width: 387px;
+  }
+  .map{
+    width: 387px;
+  }
+
 }
 
 @media (min-width: 845px) {
