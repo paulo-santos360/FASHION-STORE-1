@@ -473,6 +473,28 @@ footer {
   width: 50%;
 }
 
+/*Seta */
+.seta-topo{
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #e2fcef;  
+  background-color: #5c164e;
+  transition: background-color 0.5s;
+}
+.seta-topo:hover{
+  color: #e2fcef;  
+  background-color: #f02d3a;
+}
+
 /* Img animação*/
 .kenburns-bottom-left {
 	-webkit-animation: kenburns-bottom-left 15s reverse both;
