@@ -138,8 +138,10 @@
     </div>
   </section>
 
-  <section class='FlexContainer'>
-      <div>
+  <section class='FlexContainer'  data-aos="fade-right"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine">
+      
         <div class="produto">
         <div class="row">
           <img src="img/loja-Tenis.jpg" alt="" />
@@ -150,9 +152,9 @@
             <p>Em <span>Oferta</span> Aproveite</p>
           </div>
         </div>
-      </div>     
+    
       </div>
-    </div>
+  
     <div> <div class="produto">
         <div class="row">
           <img src="img/prmocao-2.jpg" alt="" />
@@ -206,7 +208,8 @@
     </div>     
     </div>
   </div>
-  <div> <div class="produto">
+  <div> 
+    <div class="produto">
       <div class="row">
         <img src="img/promocao-3.jpg" alt="" />
         <div class="area-produto">
@@ -217,7 +220,8 @@
           <p>Em <span class="ofert">Oferta</span> Aproveite</p>
         </div>
       </div>
-    </div></div>
+    </div>
+  </div>
   <div> <div class="produto">
       <div class="row">
         <img src="img/camisa-feminina.jpg" alt="" />
@@ -229,7 +233,8 @@
           <p>Em <span class="ofert">Oferta</span> Aproveite</p>
         </div>
       </div>
-    </div></div>
+    </div>
+  </div>
   <div> 
       <div class="produto">
       <div class="row">
@@ -246,12 +251,17 @@
   </div>
 </section>
 
-<div class="Nossa-Historia">
+<div class="Nossa-Historia" data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
     <h2>Nossa Historia Lojas <spanb class="fashion">FASHION STORE</spanb></h2>
 </div>
 
 <section class="Text-destaque">
-  <div class="home-destaque">
+  <div class="home-destaque"  data-aos="fade-right"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine">
       <h1>O começo da loja  <spanb class="fashion">FASHION STORE</spanb></h1>
 
       <p>Tudo começou muito pequeno a loja Fashion Store, uma loja familia com apenas 2 colaboradores eu, e minha esposa
@@ -263,82 +273,39 @@
       <p>Agradecemos a preferencia muito obrigado a todos vocês por fazer parte da nossa historia</p>
   </div>
 
-  <div class="home-imagem">
+  <div class="home-imagem" data-aos="fade-right"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine">
    
     <img src="img/loja-destaque.jpg" class="kenburns-bottom-left  " alt="">
   </div>
 </section>
 
-<section>
-  <div id="register-form">
-    <h2>Crie sua conta:</h2>
-    <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
-    <div class="form-control">
-      <label for="name">Nome</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Digite o seu nome"
-      />
-    </div>
-    <div class="form-control">
-      <label for="email">E-mail</label>
-      <input
-        type="text"
-        type="email"
-        id="email"
-        placeholder="Digite o seu e-mail"
-      />
-    </div>
-    <div class="form-control">
-      <label for="password">Senha</label>
-      <input
-        type="text"
-        type="password"
-        id="password"
-        placeholder="Digite a sua senha"
-      />
-    </div>
-    <p>
-      Quer ajuda para criar uma senha segura?
-      <span id="open-generate-password">Clique aqui.</span>
-    </p>
-    <div id="generate-options" class="hide">
-      <p>Selecione as opções que você deseja</p>
-      <div class="form-control">
-        <label for="length">Quantidade de caracteres:</label>
-        <input type="text" id="length" name="length" value="10" />
-      </div>
-      <div class="form-control">
-        <label for="letters">Letras:</label>
-        <input type="checkbox" id="letters" name="letters" checked />
-      </div>
-      <div class="form-control">
-        <label for="numbers">Números:</label>
-        <input type="checkbox" id="numbers" name="numbers" checked />
-      </div>
-      <div class="form-control">
-        <label for="symbols">Símbolos:</label>
-        <input type="checkbox" id="symbols" name="symbols" checked />
-      </div>
-      <button id="generate-password">Criar senha</button>
-    </div>
-    <div id="generated-password">
-      <p>Aqui está a sua senha:</p>
-      <h4></h4>
-      <button id="copy-password">Copiar</button>
-    </div>
-    <div class="form-control">
-      <label for="confirmpassword">Confirmação de Senha</label>
-      <input
-        type="text"
-        type="confirmpassword"
-        id="confirmpassword"
-        placeholder="Confirme a sua senha"
-      />
-    </div>
-    <input type="submit" value="Cadastrar" />
+<div class="Nossa-Historia" data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
+    <h2>Entre em Contato <spanb class="fashion">FASHION STORE</spanb></h2>
+</div>
+
+<section class="Text-Contato">
+
+  <div id="form-container">
+    <h2>Nos mande uma mensagem!!</h2>
+    <form id="contact-form">
+      <label for="name">Nomek</label>
+      <input type="text" name="name" placeholder="Digite seu nome">
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" placeholder="Digite seu e-mail">
+      <label for="phone">Telefone:</label>
+      <input type="text" name="phone" placeholder="Digite seu telefone">
+      <label for="msg">Sua mensagem:</label>
+      <textarea name="msg" placeholder="Como podes te ajudar?"></textarea>
+      <input type="submit" value="Enviar mensagem">
+    </form>
+  </div>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.413950559477!2d-45.8907927!3d-23.228019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a96997f09f3%3A0x52e19b7a613ec971!2sAv.%20Perseu%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%2C%20SP%2C%2012230-470!5e0!3m2!1spt-BR!2sbr!4v1683474851538!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </section>
  
@@ -395,15 +362,3 @@
 
 </body>
 </html>
-
-<!-- Navigation links (hidden by default) 
-<div id="myLinks">
-  <a href="index.html">HOME</a>
-  <a href="produtos.html">PRODUTOS</a>
-  <a href="entre">ENTRE EM CONTATO</a>
-</div>
- "Hamburger menu" / "Bar icon" to toggle the navigation links 
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-</a>
-</div> --> 
