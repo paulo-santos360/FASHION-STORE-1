@@ -478,8 +478,8 @@ footer {
   position: fixed;
   width: 100px;
   height: 100px;
-  bottom: 40px;
-  right: 40px;
+  bottom: 60px;
+  right: 23px;
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
@@ -487,6 +487,11 @@ footer {
   font-size: 30px;
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
+}
+
+.tp:hover{
+  color: #e2fcef;  
+  background-color: #5c164e;
 }
 
 /*Seta */
@@ -505,10 +510,6 @@ footer {
   color: #e2fcef;  
   background-color: #5c164e;
   transition: background-color 0.5s;
-}
-.seta-topo:hover{
-  color: #e2fcef;  
-  background-color: #f02d3a;
 }
 
 /* Img animação*/
