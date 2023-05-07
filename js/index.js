@@ -7,3 +7,4 @@ function myFunction() {
     }
   } 
 
+  AOS.init();
