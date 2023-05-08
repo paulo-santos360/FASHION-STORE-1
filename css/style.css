@@ -537,8 +537,8 @@ footer {
 
 /* Img animação*/
 .kenburns-bottom-left {
-	-webkit-animation: kenburns-bottom-left 15s reverse both;
-	        animation: kenburns-bottom-left 15s reverse both;
+	-webkit-animation: kenburns-bottom-left 20s reverse both;
+	        animation: kenburns-bottom-left 20s reverse both;
 }
 
  @-webkit-keyframes kenburns-bottom-left {
