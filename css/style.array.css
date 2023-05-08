@@ -51,6 +51,7 @@
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 1.5em;
   }
+
    .card {
     background-color: #ffffff;
     max-width: 18em;
@@ -65,7 +66,6 @@
   img{
     max-width: 100%; 
    object-fit: contain;
-    /* height: 14em; */
     animation: none;
     transition: all 0.4s
   }
