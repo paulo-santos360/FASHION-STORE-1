@@ -26,17 +26,10 @@ A Fashion Store é um projeto de comércio eletrônico que utiliza tecnologias m
 
 ![site-1](https://user-images.githubusercontent.com/102436341/236716826-ae15653f-f3c5-4397-815a-766e9b444c4b.png)
 
-![site-3](https://github.com/pauloninja/FASHION-STORE-1/assets/102436341/3960a2f8-fd75-476b-9a63-c102b2e7cebf)
-
 #PAGINA PRODUTO
 ![site-2](https://user-images.githubusercontent.com/102436341/236716838-fee8464d-9497-4db1-a72e-83a7abecd6d7.png)
 
 ## 🌐 Recursos Externos
-
-- Google Fonts
-- [Imagens de alta qualidade](link_para_banco_de_imagens.jpg)
-- 
-- [Ícones personalizados](link_para_icones.jpg)
 
 ## 💡 Como Usar
 
