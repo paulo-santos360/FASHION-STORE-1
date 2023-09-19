@@ -1,7 +1,5 @@
 # Fashion Store
 
-![Fashion Store Logo](link_para_logo.jpg)
-
 Bem-vindo à Fashion Store, a loja de moda online onde você encontra as últimas tendências em roupas, acessórios e muito mais. Nossa missão é fornecer produtos da mais alta qualidade para nossos clientes, mantendo você na vanguarda da moda.
 
 ## 🚀 Tecnologias Utilizadas
@@ -33,7 +31,7 @@ A Fashion Store é um projeto de comércio eletrônico que utiliza tecnologias m
 
 ## 💡 Como Usar
 
-Para experimentar a Fashion Store, basta visitar o nosso site em [www.fashionstore.com](https://www.fashionstore.com).
+Para experimentar a Fashion Store, basta visitar o nosso site em [www.fashionstore.com](https://paulo-santos360.github.io/FASHION-STORE-1/).
 
 ## ✅ Pré-requisitos
 
